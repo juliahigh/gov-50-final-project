@@ -1,0 +1,20 @@
+---
+title: "Final Project"
+author: "Julia High"
+date: "2023-10-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+```
+
+
+```{r}
+read.csv("region-g20+countries.csv")
+```
+
